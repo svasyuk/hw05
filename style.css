@@ -1,0 +1,41 @@
+.tab {
+    display: inline-block;    
+    padding: 5px 10px;
+    cursor: pointer;
+    position: relative;
+    z-index: 5;
+}
+
+.active {
+    border: 1px solid black;
+    border-bottom: 1px solid #fff;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.content {
+    width: 300px;
+    height: 100px;
+    border: 1px solid black;
+    position: relative;
+    top: -2px;
+    padding: 10px;
+    border-radius: 0px 0px 5px 5px;
+    z-index: 1;
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+.input {
+    padding: 5px 10px;
+    margin: 20px 50px;
+}
+
+.button-output {
+    margin: 30px 0px;
+}
